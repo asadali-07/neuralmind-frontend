@@ -3,7 +3,7 @@ import useAuthStore from "../store/authStore";
 
 // Create axios instance with default config
 const api = axios.create({
-  baseURL: "https://neuralmind-dbl0.onrender.com",
+  baseURL: "https://neuralmind-dbl0.onrender.com/api",
   withCredentials: true,
   headers: {
     "Content-Type": "application/json",
