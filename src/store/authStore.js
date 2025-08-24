@@ -20,7 +20,7 @@ const useAuthStore = create((set, get) => ({
   clearError: () => set({ error: null }),
 
   connectSocket: async () => {
-    const socket = io("http://localhost:3000", {
+    const socket = io("https://neuralmind-dbl0.onrender.com", {
       withCredentials: true,
     });
     set({ socket });
